@@ -1,0 +1,23 @@
+body{
+    background-color:rgb(91, 93, 197)
+}
+.container {
+    background-color: rgb(45, 27, 128);
+}
+.container-fluid{
+background-color: rgb(12, 10, 20);
+float: inline-end;
+}
+.jumbotron{
+    background-color: rgb(38, 38, 231);
+    width: 100%;
+    margin-left: 20px;
+    margin-right: 340px;
+}
+.writeup{
+    text-align: center;
+    color: black;
+}
+.logo{
+    color: cadetblue;
+}
