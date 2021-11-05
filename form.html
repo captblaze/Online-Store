@@ -8,8 +8,16 @@
 </head>
 <body background="images/green-field-35.jpeg">
     <img src="Images/MAIN 1.jpg" alt="Stan's Pet Home logo" style="width: 10%;height: 10%; margin-left: 550px; border-radius: 30px;"><br>
-
+    <!--This is the navigation bar-->
+    <div class="container-fluid" style="text-align: right; color: springgreen;">
+        <a href="index.html">HOME</a>
+        <a href="showroom.html">SHOWROOM</a>
+        <a href="contact.html">CONTACTS </a>
+        <a href="about.html">ABOUT US</a>   
+</div><br>
+     <!--This is the form title-->
     <h2 style="text-align: center;color: rgb(24, 13, 13);"><strong><em>Please fill the form below to purchase an Exotic car</strong></em></h2>
+     <!--This is the personal details form section-->
     <form autocomplete="on">
     <fieldset>
         <legend><strong>Personal Profile</strong> </legend>
@@ -21,10 +29,13 @@
         <input type="text" name="Lastname" id="Lastname" placeholder="Write your Lastname" value="" required><br>
         <label for="Email"><strong>Email</strong></label> <br>
         <input type="text" name="Email" id="Email" placeholder="Write your Email" value=""> <br>
+        <label for="Address"><strong>Address</strong></label> <br>
+        <input type="text" name="Address" id="Address" placeholder="Enter your address" value=""><br>
         <label for="Phonenumber"><strong>Phonenumber</strong></label> <br>
-        <input type="text" name="Phonenumber" id="Phonenumber" placeholder="Phone number" value="">
+        <input type="text" name="Phonenumber" id="Phonenumber" placeholder="Phone number" value=""><br>
+        
     </fieldset><br>
-
+ <!--This is the Gender selection section -->
     <fieldset>
             <legend>Sex</legend> 
         <input type="radio" name="Gender">
@@ -32,7 +43,7 @@
         <input type="radio" name="Gender">
         <label for="Female">Female</label><br>
     </fieldset><br>
-
+ <!--This is the payment method section -->
     <fieldset>
         <legend>Payment Method</legend> 
     <input type="radio" name="payment">
@@ -42,7 +53,7 @@
     <input type="radio" name="payment">
     <label for="Cash">Crypto Currency</label><br>
 </fieldset>
-
+ <!--This is the car selection section -->
     <fieldset>
         <legend>Select Car</legend>
        
@@ -61,7 +72,8 @@
             <option value="Lamboughini DBS">Lamborghini Aventador SVJ Roadster.</option>
             <option value="Mercedes">Mercedes-AMG GT 63 S Four-Door.</option>
             <option value="Polestar">Polestar 1.</option><br>
-    </fieldset>
+    </fieldset><br>
+    <p></p>
 
     <input type="submit" value="Submit">
     
