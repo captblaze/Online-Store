@@ -35,18 +35,29 @@
     <form autocomplete="on">
     <fieldset>
         <legend><strong>Personal Profile</strong> </legend>
-        <label for="firstname"><strong>Firstname</strong></label> <br>
-        <input type="text" name="Firstname" id="firstname" placeholder="Write your Firstname" value="" autofocus required><br>
-        <label for="middlename"><strong>Middle Name</strong></label> <br>
-        <input type="text" name="middlename" id="middlename" placeholder="Write your Middle name" value="" autofocus required><br>
-        <label for="Lastname"><strong>Lastname</strong></label> <br>
-        <input type="text" name="Lastname" id="Lastname" placeholder="Write your Lastname" value="" required><br>
-        <label for="Email"><strong>Email</strong></label> <br>
-        <input type="text" name="Email" id="Email" placeholder="Write your Email" value=""> <br>
-        <label for="Address"><strong>Address</strong></label> <br>
-        <input type="text" name="Address" id="Address" placeholder="Enter your address" value=""><br>
-        <label for="Phonenumber"><strong>Phonenumber</strong></label> <br>
-        <input type="text" name="Phonenumber" id="Phonenumber" placeholder="Phone number" value=""><br>
+        <form autocomplete="on">
+          <fieldset>
+            <strong>
+              <label for="Firstname">Firstname :</label>
+              <input type="Firstname" class="form-control" placeholder="Enter Firstname" id="Firstname">
+              <label for="Lastname">Lastname:</label>
+              <input type="Lastname" class="form-control" placeholder="Enter Lastname" id="Lastname">
+              <label for="email">Email address:</label>
+              <input type="email" class="form-control" placeholder="Enter email" id="email">
+              <label for="Address">Address:</label>
+              <input type="Address" class="form-control" placeholder="Enter Your Address" id="Address">
+               <label for="phone">Phone number:</label>
+              <input type="phone" class="form-control" placeholder="Phone number" id="phone">
+              <label for="pwd">Password:</label>
+              <input type="password" class="form-control" placeholder="Enter password" id="pwd">
+              <div class="form-check">
+              <label class="form-check-label">
+              <input class="form-check-input" type="checkbox"> Remember me
+              </label>
+              </div><br>
+              <label><strong><em>Type your message</em></strong></label><br>
+              <textarea name="Describe" placeholder="Type your message..." rows="10" cols="90" style="width: 1350px;border-radius: 10px; color: brown; border-style:ridge; border-color: rgb(17, 17, 17); border-width: 0px;" ></textarea><br><br> 
+          </fieldset>
         
     </fieldset><br>
  <!--This is the Gender selection section -->
@@ -66,7 +77,7 @@
     <label for="Female">Transfer</label><br>
     <input type="radio" name="payment">
     <label for="Cash">Crypto Currency</label><br>
-</fieldset>
+</fieldset><br>
  <!--This is the car selection section -->
     <fieldset>
         <legend>Select Car</legend>
@@ -86,10 +97,15 @@
             <option value="Lamboughini DBS">Lamborghini Aventador SVJ Roadster.</option>
             <option value="Mercedes">Mercedes-AMG GT 63 S Four-Door.</option>
             <option value="Polestar">Polestar 1.</option><br>
-    </fieldset><br>
-    <p></p>
-
-    <input type="submit" value="Submit">
-    
+            <button type="button" class="btn btn-success">Success</button>
+            <button type="submit" class="btn btn-primary">Submit</button>
+            <button type="submit" class="btn btn-primary">Submit</button>
+          </strong>
+      </fieldset><br><br>
+    <div class="jumbotron">
+    <fieldset >
+   
+  </fieldset>
+</div>
 </body>
 </html>
